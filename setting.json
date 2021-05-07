@@ -17,6 +17,35 @@
     "typescript.format.semicolons": "remove",
     "python.showStartPage": false,
     "workbench.colorCustomizations": {
+        // Glyphs
+        "minimapGutter.modifiedBackground": "#aa3e50",
+        "editorGutter.modifiedBackground":"#aa3e50",
+        "minimapGutter.addedBackground": "#57aa3e",
+        "editorGutter.addedBackground":"#57aa3e",
+        "minimapGutter.deletedBackground": "#aa3e50",
+        "editorGutter.deletedBackground":"#aa3e50",
+        "editorGutter.foldingControlForeground": "#8e8e8e",
+
+        // Widget (e.g., textbox)
+        "editorWidget.foreground": "#8e8e8e",
+        "editorWidget.background": "#282A36",
+        "editorWidget.border": "#303341",
+        "editorHoverWidget.foreground": "#8e8e8e",
+        "editorHoverWidget.background": "#282A36",
+        "editorHoverWidget.border": "#303341",
+
+        // Peek View (e.g., F12)
+        "peekViewEditor.background": "#303341",
+        "peekViewEditorGutter.background": "#303341",
+        "peekViewResult.background": "#303341",
+        "peekViewTitle.background": "#303341",
+
+        "sideBarTitle.foreground": "#8e8e8e",
+        "sideBar.foreground": "#8e8e8e",
+        "tab.hoverForeground": "#8e8e8e",
+        // "editorCursor.foreground": "#000",
+        "editorWarning.foreground": "#bdb35a",
+        "editorError.foreground": "#bd5a5a",
         "editorIndentGuide.background": "#303341",
         "editorIndentGuide.activeBackground": "#303341",
         "tab.activeBorderTop": "#8e8e8e",
@@ -24,8 +53,8 @@
         "scrollbarSlider.background":"#303341",
         "scrollbarSlider.hoverBackground": "#8e8e8e",
         "scrollbarSlider.activeBackground": "#8e8e8e",
-        "editor.lineHighlightBackground": "#282A36", // "#303341",
-        "editor.lineHighlightBorder": "#282A36", // "#454545",
+        "editor.lineHighlightBackground": "#303341", // "#303341",
+        "editor.lineHighlightBorder": "#303341", // "#454545",
         "editorLineNumber.foreground": "#303341",
         "editorGroup.border": "#303341", // between groups of views
 
@@ -46,9 +75,11 @@
         "editorGroupHeader.tabsBorder": "#282A36",
         "tab.unfocusedActiveBorder": "#282A36",
         "editorGroupHeader.border": "#282A36",
+        "tab.hoverBorder": "#282A36",
         "tab.border": "#282A36",
         "tab.activeBorder": "#282A36",
         "tab.inactiveBorder": "#282A36",
+        "tab.hoverBackground": "#282A36",
         "tab.activeBackground": "#282A36",
         "tab.inactiveBackground": "#282A36",
         "editorGroupHeader.tabsBackground": "#282A36",
@@ -170,8 +201,6 @@
           }
         ]
     },
-    
-    "editor.minimap.enabled": false,
     "diffEditor.ignoreTrimWhitespace": false,
     "workbench.iconTheme": "vs-seti",
     "jupyter.askForKernelRestart": false,
@@ -195,7 +224,7 @@
     "editor.cursorBlinking": "solid",
     "workbench.colorTheme": "Monokai Classic",
     "editor.fontSize": 12,
-    "editor.lineHeight": 20,
+    "editor.lineHeight": 22,
     "launch": {
       "configurations": [],
       "compounds": []
