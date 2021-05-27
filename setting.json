@@ -1,7 +1,5 @@
 {
-    // https://code.visualstudio.com/api/references/theme-color
-    "workbench.statusBar.visible": false,
-    "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.shell.osx": "/bin/zsh",
     "terminal.integrated.inheritEnv": false,
     "editor.maxTokenizationLineLength": 200000,
     "typescript.updateImportsOnFileMove.enabled": "always",
@@ -248,6 +246,7 @@
     ],
     "editor.overviewRulerBorder": false,
     "editor.minimap.enabled": false,
-    "window.zoomLevel": 1,
-    "workbench.colorTheme": "Monokai Pro",
+    "workbench.statusBar.visible": false,
+    "workbench.colorTheme": "Dracula",
+    "window.zoomLevel": 2,
 }
